@@ -1,0 +1,1 @@
+<view class="content"><block wx:if="{{hasLogin}}"><view class="hello"><view class="title">{{'您好 '+userName+'，您已成功登录。'}}</view><view class="ul"></view></view></block><block wx:if="{{!hasLogin}}"><view class="hello"><view class="title">{{'您好,总共联系人'+allNum+",可读联系人"+canNum+''}}</view><view class="ul"></view></view></block></view>
